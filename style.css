@@ -63,6 +63,11 @@ body {
 
 /* Media queries */
 @media (min-width: 320px) and (max-width: 530px) {
+  body {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
   .relogio {
     height: 35%;
     width: 95%;
