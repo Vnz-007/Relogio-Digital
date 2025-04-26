@@ -46,14 +46,12 @@ body {
 }
 
 .relogio span {
+  font-weight: bolder;
+  font-size: 60px;
+
   color: transparent;
   background-clip: text;
   background-image: linear-gradient(120deg, #d9d9d9, #c0c0c0);
-}
-
-.relogio span {
-  font-weight: bolder;
-  font-size: 60px;
 }
 
 .relogio span.tempo {
@@ -61,4 +59,17 @@ body {
   color: transparent;
   background-clip: text;
   background-image: linear-gradient(120deg, #d9d9d9, #c0c0c0);
+}
+
+/* Media queries */
+@media (min-width: 320px) and (max-width: 530px) {
+  .relogio {
+    height: 35%;
+    width: 95%;
+  }
+
+  .relogio div {
+    height: 70%;
+    width: 30%;
+  }
 }
